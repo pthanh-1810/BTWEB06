@@ -6,7 +6,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>BT6</groupId>
+    <groupId>thanh</groupId>
     <artifactId>BT6</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
