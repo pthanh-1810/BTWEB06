@@ -3,13 +3,13 @@
   <persistence-unit name="jpa-crud-sqlserver">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-    <class>vn.iotstar.entity.User</class>
-    <class>vn.iotstar.entity.Category</class>
-    <class>vn.iotstar.entity.Video</class>
+    <class>thanh.entity.User</class>
+    <class>thanh.entity.Category</class>
+    <class>thanh.entity.Video</class>
 
     <properties>
       <property name="jakarta.persistence.jdbc.url"
-                value="jdbc:DESKTOP-D351HQG:1433;databaseName=LTWEB;encrypt=false;trustServerCertificate=true"/>
+                value="jdbc:hihi;databaseName=LTWEB;encrypt=false;trustServerCertificate=true"/>
       <property name="jakarta.persistence.jdbc.user" value="sa"/>
       <property name="jakarta.persistence.jdbc.password" value="123"/>
       <property name="jakarta.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
